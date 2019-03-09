@@ -34,7 +34,6 @@ Widget buildView(
                     autofocus: true,
                     style: const TextStyle(color: Colors.black, fontSize: 16.0),
                     cursorColor: Colors.yellow,
-                    backgroundCursorColor: const Color(0xFFFFF59D),
                   ),
                 ))
               ],
@@ -60,7 +59,6 @@ Widget buildView(
                   margin: const EdgeInsets.only(left: 8.0),
                   child: EditableText(
                       controller: state.descEditController,
-                      backgroundCursorColor: const Color(0xFFE0E0E0),
                       maxLines: 10,
                       focusNode: state.focusNodeDesc,
                       style:
